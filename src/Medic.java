@@ -9,7 +9,7 @@ private int healPoints;
     @Override
     public void applySuperAbility() {
 
-        System.out.println("Medic применил суперспособность" + getSuperpowerType());
+        System.out.println("Medic применил суперспособность " + getSuperpowerType());
     }
 
     public int increaseExperience(){

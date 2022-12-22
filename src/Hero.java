@@ -9,7 +9,11 @@ public abstract class Hero implements HavingSuperAbility {
         this.superpowerType = superpowerType;
     }
 
-    public SupAbility getSuperpowerType() {
-        return superpowerType;
+    @Override
+    public void applySuperAbility() {
+        System.out.println(superpowerType);
+    }
+    public String getSuperpowerType() {
+        return superpowerType.toString().replace("_", " ");
     }
 }
